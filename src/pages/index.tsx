@@ -5,8 +5,11 @@ export default function LandingPage() {
 	return (
 		<>
 			<div className="font-sans w-full h-screen bg-paletteQuaternary">
+				{/* Navbar */}
 				<div className="w-full h-32 bg-palettePrimary flex flex-row justify-between items-center px-16 text-paletteQuaternary">
-					<div className="font-semibold text-4xl">PhotoBerk</div>
+					<Link href="/" className="font-semibold text-4xl py-5">
+						PhotoBerk
+					</Link>
 					<div className="flex flex-row gap-8 text-2xl font-normal">
 						<Link href="/gallery" className="p-5">
 							Gallery
@@ -19,6 +22,7 @@ export default function LandingPage() {
 						</Link>
 					</div>
 				</div>
+				{/* Body */}
 				<div className="flex justify-center items-center h-[calc(100vh-128px)] ">
 					<div className="aspect-[2] w-2/3 min-w-min bg-paletteSecondary flex flex-row rounded-lg">
 						<div className="basis-1/2 relative">
@@ -27,14 +31,14 @@ export default function LandingPage() {
 								alt=""
 								width={250}
 								height={250}
-								className="bg-paletteGreen w-80 h-80 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10"
+								className="bg-paletteGreen w-1/2 aspect-square absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10"
 							></Image>
 							<Image
 								src="vercel.svg"
 								alt=""
 								width={250}
 								height={250}
-								className="bg-paletteGreen w-72 h-72 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-2/3 z-0 opacity-50"
+								className="bg-paletteGreen w-2/5 aspect-square absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-3/4 z-0 opacity-50"
 							></Image>
 						</div>
 						<div className="basis-1/2 flex flex-col gap-8 justify-center text-paletteQuaternary pr-12">

@@ -6,10 +6,10 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				palettePrimary: "#252323",
-				paletteSecondary: "#8A817C",
-				paletteTertiary: "#BCB8B1",
-				paletteQuaternary: "#F4F3EE",
+				palettePrimary: "#201E1E",
+				paletteSecondary: "#615A56",
+				paletteTertiary: "#ABA59C",
+				paletteQuaternary: "#FFFFFF",
 				paletteRed: "#B3001B",
 				paletteGreen: "#0B6E4F",
 				paletteBlue: "#2541B2",
